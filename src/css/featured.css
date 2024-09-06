@@ -1,0 +1,21 @@
+.active_button {
+    background-color: #2563eb;
+    opacity: 1;
+}
+
+.darkButton {
+    opacity: 0.4;
+}
+
+.feature_cont {
+    width: 380px;
+}
+
+
+.feature_cont:hover img {
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}

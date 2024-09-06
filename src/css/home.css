@@ -1,0 +1,74 @@
+.elec_p {
+    color: #757d7f;
+}
+
+.celisios {
+    font-size: 8px;
+}
+
+.car_info {
+    width: 600px;
+}
+
+.disc {
+    color: #6e6e6e;
+}
+
+.start {
+    box-shadow: 0 0 22px #00ff69;
+}
+
+@media (max-width: 400px) {
+    .car_info {
+        width: 200px;
+    }
+
+    .home_img {
+        width: 200px;
+    }
+
+    .mil_cont {
+        margin-left: 20px;
+    }
+
+    .battery_cont {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .car_info {
+        width: 200px;
+    }
+
+    .home_img {
+        width: 200px;
+    }
+
+    .mil_cont {
+        margin-left: 20px;
+    }
+
+    .battery_cont {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+    .car_info {
+        width: 500px;
+    }
+
+    .home_img {
+        width: 250px;
+    }
+
+    .mil_cont {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,67 @@
+.car_type {
+    color: #959595 !important;
+}
+
+.car_cont:hover img {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.shop {
+    border-radius: 20px 0 20px 0;
+}
+
+
+.mySwiper {
+    width: 900px;
+    height: 400px;
+}
+
+
+.swiper-pagination-bullet {
+    background-color: #acb0b2 !important;
+    opacity: 1 !important;
+}
+
+
+.swiper-pagination-bullet-active {
+    background-color: blue !important;
+}
+
+
+
+
+
+@media (min-width: 1250px) {
+    .bigScreen_swipper {
+        display: block !important;
+    }
+
+    .smallScreen_swipper {
+        display: none !important;
+    }
+}
+
+
+
+@media (max-width: 1250px) {
+    .bigScreen_swipper {
+        display: none !important;
+    }
+
+    .smallScreen_swipper {
+        display: block !important;
+    }
+
+    .mySwiper {
+        width: 266px;
+        height: 400px;
+    }
+
+    .car_ps {
+        justify-content: space-between;
+    }
+}
